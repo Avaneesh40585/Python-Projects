@@ -48,7 +48,7 @@ To set up a project which requires a certain libraries which are not pre-install
 ### 1. Make sure you have Python and pip installed
 
 Check if Python and pip are available by running:
-'''python
+'''
 python –version 
 python -m pip –version
 '''
@@ -61,7 +61,7 @@ If you don’t have Python or pip, download and install them from the [official 
 
 This keeps your project’s dependencies isolated from other Python projects.
 
-'''python
+'''
 python -m venv venv
 On Windows
 venv\Scripts\activate
@@ -74,12 +74,12 @@ source venv/bin/activate
 ### 3. Install the required dependencies
 
 If your project has a `requirements.txt` file, install all dependencies with:
-'''python
+'''
 pip install -r requirements.txt
 '''
 
 Or, to install a specific package (replace `package-name` with the desired library):
-'''python
+'''
 python -c “import package_name; print(‘Installed!’)”
 '''
 
