@@ -3,8 +3,8 @@ from datetime  import datetime
 import smtplib
 import time
 # *------------------------------ POSITION SETUP -------------------------------* #
-MY_LAT=22.531255
-MY_LONG=75.923722
+MY_LAT=22.531255 # Enter your latitude here
+MY_LONG=75.923722 # Enter your longtitude here
 sun_parameters={
     "lat":MY_LAT,
     "lng":MY_LONG,
@@ -29,9 +29,9 @@ sunset_hour=(sun_data["results"]["sunset"].split("T")[1].split(":")[0])
 hour_now=datetime.now().hour
 
 # *------------------------------- SEND EMAIL-----------------------------------* #
-sender_email="amadeus40585@gmail.com"
-app_password="tuxjnmozogyebrun"
-receiver_email="avaneesh40585@gmail.com"
+sender_email="sender email here"
+app_password="your password here"
+receiver_email="reciever email here"
 
 def send_mail():
     with smtplib.SMTP("smtp.gmail.com",port=587) as connection:
