@@ -1,13 +1,13 @@
 # Motivational Quote Automated-Mail
 A simple Python script that sends a random motivational quote to your email every Monday morning!
 
-## 📋 How it works
+## How it works
 - Reads all quotes from `quotes.txt`
 - Selects a random quote
 - Checks if today is Monday
 - Sends the quote to your email via Gmail SMTP
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 1. **Add your email credentials**  
    Replace `sender_email`, `app_password`, and `receiver_email` in the script with your information.  
    *Tip: For security, use environment variables instead of hardcoding credentials.*
