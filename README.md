@@ -41,7 +41,7 @@ Feel free to browse, run the code, and use these projects as inspiration for you
 | Treasure Island | A text-based adventure game where choices lead to different outcomes on a treasure hunt. | [Treasure Island](./Treasure%20Island) |
 
 
-## 📦 Installing Dependencies
+## Installing Dependencies
 
 To set up a project which requires a certain libraries which are not pre-installed on your local machine, follow these steps:
 
