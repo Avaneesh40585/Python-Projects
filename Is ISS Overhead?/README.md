@@ -21,6 +21,6 @@ This project sends you an email notification when the International Space Statio
 - Use environment variables for `sender_email` and `app_password` to secure your Gmail credentials.
 
 ## Dependencies:  
-- `requests` (for API calls)  
+- `requests` (for API calls) & to be installed seperately / through requirements.txt
 - `smtplib` (for email notifications)  
 - `datetime` and `time` (for scheduling and time checks)  
