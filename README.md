@@ -5,6 +5,8 @@ Feel free to browse, run the code, and use these projects as inspiration for you
 
 ![Python-projects](https://github.com/user-attachments/assets/2d577658-6535-4f0b-97b2-4c60278ccee1)
 
+---
+
 ## Projects Covered
 
 | Project | Description | Link |
@@ -40,7 +42,7 @@ Feel free to browse, run the code, and use these projects as inspiration for you
 | The Secret Auction Program | Simulates a secret auction where users submit bids anonymously. | [The Secret Auction Program](./The%20Secret%20Auction%20Program) |
 | Treasure Island | A text-based adventure game where choices lead to different outcomes on a treasure hunt. | [Treasure Island](./Treasure%20Island) |
 
-
+---
 ## Installing Dependencies
 
 To set up a project which requires a certain libraries which are not pre-installed on your local machine, follow these steps:
