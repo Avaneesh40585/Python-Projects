@@ -18,7 +18,7 @@ Feel free to browse, run the code, and use these projects as inspiration for you
 | Flash Cards | A flashcard app to help users study and memorize information interactively. | [Flash Cards](./Flash%20Cards) |
 | Hangman | Classic word-guessing game where players try to guess the word before the hangman is drawn. | [Hangman](./Hangman) |
 | Higher or Lower | A guessing game where users decide if the next number or follower count is higher or lower. | [Higher or Lower](./Higher%20or%20Lower) |
-| Is ISS Overhead? | Notifies the user when the International Space Station is overhead their location. | [Is ISS Overhead? ](./Is%20ISS%20Overhead?%20) |
+| Is ISS Overhead | Notifies the user when the International Space Station is overhead their location. | [Is ISS Overhead ](./Is%20ISS%20Overhead) |
 | Kanye Quotes | Displays random Kanye West quotes using a GUI and API requests. | [Kanye Quotes](./Kanye%20Quotes) |
 | Mail Merge | Automates sending personalized emails by merging templates with data sources. | [Mail Merge](./Mail%20Merge) |
 | Motivational Quote Automated-Mail | Sends automated motivational quotes to your email on a schedule. | [Motivational Quote Automated-Mail](./Motivational%20Quote%20Automated-Mail) |
