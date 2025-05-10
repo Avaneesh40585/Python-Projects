@@ -18,7 +18,7 @@ Feel free to browse, run the code, and use these projects as inspiration for you
 | Flash Cards | A flashcard app to help users study and memorize information interactively. | [Flash Cards](./Flash%20Cards) |
 | Hangman | Classic word-guessing game where players try to guess the word before the hangman is drawn. | [Hangman](./Hangman) |
 | Higher or Lower | A guessing game where users decide if the next number or follower count is higher or lower. | [Higher or Lower](./Higher%20or%20Lower) |
-| Is ISS Overhead? | Notifies the user when the International Space Station is overhead their location. | [Is ISS Overhead?](./Is%20ISS%20Overhead?) |
+| Is ISS Overhead? | Notifies the user when the International Space Station is overhead their location. | [Is ISS Overhead? ](./Is%20ISS%20Overhead?%20) |
 | Kanye Quotes | Displays random Kanye West quotes using a GUI and API requests. | [Kanye Quotes](./Kanye%20Quotes) |
 | Mail Merge | Automates sending personalized emails by merging templates with data sources. | [Mail Merge](./Mail%20Merge) |
 | Motivational Quote Automated-Mail | Sends automated motivational quotes to your email on a schedule. | [Motivational Quote Automated-Mail](./Motivational%20Quote%20Automated-Mail) |
@@ -35,7 +35,6 @@ Feel free to browse, run the code, and use these projects as inspiration for you
 | Blackjack | A simple version of the card game Blackjack, played against the computer. | [Blackjack](./Blackjack) |
 | Caesar Cipher | Encodes and decodes messages using the Caesar cipher encryption method. | [Caesar Cipher](./Caesar%20Cipher) |
 | Calculator | Basic calculator that can perform arithmetic operations. | [Calculator](./Calculator) |
-| Escaping the Maze | A maze-solving game where the player navigates through a maze to escape. | [Escaping the Maze](./Escaping%20the%20Maze) |
 | Guess my number | Number guessing game where the player tries to guess a randomly chosen number. | [Guess my number](./Guess%20my%20number) |
 | Miles to Km converter | Converts distances from miles to kilometers. | [Miles to Km converter](./Miles%20to%20Km%20converter) |
 | Rock Paper Scissors | Classic Rock, Paper, Scissors game against the computer. | [Rock Paper Scissors](./Rock%20Paper%20Scissors) |
