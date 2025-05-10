@@ -1,2 +1,3 @@
 # Snake Game Demo
-![14](https://github.com/user-attachments/assets/ff9a0348-7efb-4bc6-8fa3-86ea0e74074a)
+![17](https://github.com/user-attachments/assets/d21d409e-e89f-4275-803f-7f7cb2a02467)
+
