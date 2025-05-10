@@ -2,9 +2,9 @@ import smtplib
 from datetime import datetime
 import random
 
-sender_email="amadeus40585@gmail.com"
-app_password="tuxjnmozogyebrun"
-receiver_email="avaneesh40585@gmail.com"
+sender_email="sender email here"
+app_password="your password here"
+receiver_email="reciever email here"
 
 with open(file="quotes.txt") as quotes_file:
     quotes_list=quotes_file.readlines()
