@@ -1,12 +1,12 @@
-import pandas as pd
+erimport pandas as pd
 import datetime as dt
 import random
 import smtplib
 # *-------------------------- DATA MANAGEMENT -------------------------------* #
 now=dt.datetime.now()
 
-sender_email="amadeus40585@gmail.com"
-app_password="tuxjnmozogyebrun"
+sender_email="sender email here"
+app_password="app password here"
 
 birthdays_df=pd.read_csv("birthdays.csv")
 birthdays_dict=birthdays_df.to_dict(orient="records")
