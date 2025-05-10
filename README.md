@@ -40,3 +40,51 @@ Feel free to browse, run the code, and use these projects as inspiration for you
 | The Secret Auction Program | Simulates a secret auction where users submit bids anonymously. | [The Secret Auction Program](./The%20Secret%20Auction%20Program) |
 | Treasure Island | A text-based adventure game where choices lead to different outcomes on a treasure hunt. | [Treasure Island](./Treasure%20Island) |
 
+
+## 📦 Installing Dependencies
+
+To set up a project which requires a certain libraries which are not pre-installed on your local machine, follow these steps:
+
+### 1. Make sure you have Python and pip installed
+
+Check if Python and pip are available by running:
+'''python
+python –version 
+python -m pip –version
+'''
+
+If you don’t have Python or pip, download and install them from the [official Python website](https://www.python.org/downloads/).
+
+---
+
+### 2. (Recommended) Create and activate a virtual environment
+
+This keeps your project’s dependencies isolated from other Python projects.
+
+'''python
+python -m venv venv
+On Windows
+venv\Scripts\activate
+On macOS/Linux
+source venv/bin/activate
+'''
+
+---
+
+### 3. Install the required dependencies
+
+If your project has a `requirements.txt` file, install all dependencies with:
+'''python
+pip install -r requirements.txt
+'''
+
+Or, to install a specific package (replace `package-name` with the desired library):
+'''python
+python -c “import package_name; print(‘Installed!’)”
+'''
+
+---
+
+You’re now ready to run the project!  
+If you encounter any issues, please refer to the documentation for the specific library or open an issue in this repository.
+
