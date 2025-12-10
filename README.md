@@ -42,48 +42,76 @@ Feel free to browse, run the code, and use these projects as inspiration for you
 | [Treasure Island](./Treasure%20Island) | A text-based adventure game where choices lead to different outcomes on a treasure hunt. |
 
 ---
-## Installing Dependencies
+## Setting Up the Python Environment
 
-To set up a project which requires a certain libraries which are not pre-installed on your local machine, follow these steps:
+To set up a project that requires external libraries not pre-installed on your local machine, follow this guide to isolate and install your dependencies.
 
-### 1. Make sure you have Python and pip installed
+### 1. Prerequisite Check
 
-Check if Python and pip are available by running:
-```python
-python –version 
-python -m pip –version
+Ensure you have Python and pip installed. Run the following in your terminal:
+
+```bash
+python --version
+pip --version
 ```
 
-If you don’t have Python or pip, download and install them from the [official Python website](https://www.python.org/downloads/).
+> **Note:** If you are on macOS or Linux and see an error, try using `python3` and `pip3` instead.
+
+If they are missing, download and install them from the [official Python website](https://www.python.org/downloads/).
 
 ---
 
-### 2. (Recommended) Create and activate a virtual environment
+### 2. Create and Activate a Virtual Environment (Recommended)
 
-This keeps your project’s dependencies isolated from other Python projects.
+This step creates an isolated folder (sandbox) for your project's libraries, preventing conflicts with other projects or your global system settings.
 
-```python
+**First, create the environment:**
+
+```bash
 python -m venv venv
-On Windows
-venv\Scripts\activate
-On macOS/Linux
-source venv/bin/activate
 ```
+
+**Next, activate it:**
+
+* **On Windows (Command Prompt/PowerShell):**
+  ```powershell
+  venv\Scripts\activate
+  ```
+
+* **On macOS / Linux:**
+  ```bash
+  source venv/bin/activate
+  ```
+
+> *You will know it worked when you see `(venv)` appear at the start of your command line.*
 
 ---
 
-### 3. Install the required dependencies
+### 3. Install Dependencies
 
-If your project has a `requirements.txt` file, install all dependencies with:
-```python
+**Option A: Install from a list**
+If your project includes a `requirements.txt` file, install all listed versions at once:
+
+```bash
 pip install -r requirements.txt
 ```
 
-Or, to install a specific package (replace `package-name` with the desired library):
-```python
-python -c “import package_name; print(‘Installed!’)”
+**Option B: Install a specific package**
+To install a single library manually (replace `package_name` with the actual name, e.g., `requests` or `numpy`):
+
+```bash
+pip install package_name
 ```
 
+---
+
+### 4. Verification
+
+To verify that your packages installed correctly, you can list all installed libraries in the current environment:
+
+```bash
+pip list
+```
 ---
 
 You’re now ready to run the project!  
