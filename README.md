@@ -57,7 +57,6 @@ pip --version
 
 If they are missing, download and install them from the [official Python website](https://www.python.org/downloads/).
 
----
 
 ### 2. Create and Activate a Virtual Environment (Recommended)
 
@@ -83,7 +82,6 @@ python -m venv venv
 
 > *You will know it worked when you see `(venv)` appear at the start of your command line.*
 
----
 
 ### 3. Install Dependencies
 
@@ -100,8 +98,6 @@ To install a single library manually (replace `package_name` with the actual nam
 ```bash
 pip install package_name
 ```
-
----
 
 ### 4. Verification
 
